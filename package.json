@@ -1,0 +1,23 @@
+{
+  "name": "throttle-debounce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "base.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./Throttle-Debounce/",
+    "deploy": "parcel build index.html --public-url ./Throttle-Debounce/ && gh-pages -d dist",
+    "deploy:gh-pages": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vlad567823/Throttle-Debounce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vlad567823/Throttle-Debounce/issues"
+  },
+  "homepage": "https://github.com/Vlad567823/Throttle-Debounce#readme"
+}
