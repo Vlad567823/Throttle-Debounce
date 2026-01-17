@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --public-url ./Throttle-Debounce/",
-    "deploy": "parcel build index.html --public-url ./Throttle-Debounce/ && gh-pages -d dist",
+    "deploy": "parcel build index.html --public-url ./Throttle-Debounce/ && npm run deploy:gh-pages",
     "deploy:gh-pages": "gh-pages -d dist"
   },
   "repository": {
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Vlad567823/Throttle-Debounce/issues"
   },
-  "homepage": "https://github.com/Vlad567823/Throttle-Debounce#readme"
+  "homepage": "https://Vlad567823.github.io/Throttle-Debounce",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
